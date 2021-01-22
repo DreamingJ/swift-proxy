@@ -1,0 +1,122 @@
+QListWidget,QListView
+{
+	max-width: 120px;
+	min-width: 120px;
+	outline: 0px;
+	background-color:#eeeeee;
+}
+
+QListWidget::Item
+{
+   height: 32px;
+}
+
+QListWidget::Item:hover
+{
+    background-color: #E6E6E6; 
+    border-radius: 4px;
+}
+
+QListWidget::Item:selected
+{
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #fbc2eb, stop:1 #a6c1ee);
+    border-radius: 4px;
+}
+
+QLineEdit
+{
+    border:0px;
+    width:170px;
+    height:40px;
+	margin:10px;    
+    border-bottom: 2px solid #B3B3B3;
+    font-family:'Microsoft YaHei';
+    font-size:20px;
+    font-weight:bold;
+}
+    
+QLineEdit:hover
+{
+    border-bottom: 3px solid #66A3FF;
+}
+
+QLineEdit:focus
+{
+    border-bottom: 3px solid #E680BD;
+}
+
+QPushButton
+{
+    border:0px;
+    width:140px;
+    height:30px;
+    border-radius:15px;
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #fbc2eb, stop:1 #a6c1ee);
+}
+
+QPushButton:hover
+{
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #ffd2f0, stop:1 #b0cbf8);
+}
+ 
+QPushButton:pressed
+{
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #e1aad2, stop:1 #92adda);
+}
+
+QTextEdit
+{
+    border-radius:10px;
+    border:2px solid #B3B3B3;
+    padding:10px;
+    font-family:'Microsoft YaHei';
+    font-size:14px;
+}
+    
+QTextEdit:hover
+{
+    border:3px solid #66A3FF;
+}
+     
+QTextEdit:focus
+{
+    border: 3px solid #E680BD;
+}
+
+QComboBox
+{
+    border-radius:10px;
+    border:2px solid #B3B3B3;
+    padding:5px;
+    font-family:'Microsoft YaHei';
+    font-size:16px;
+}
+
+QComboBox::drop-down
+{
+    border:0px;
+    border-radius:10px;
+    background-color: #66A3FF;
+    margin:5px;
+    width:20px;
+    height:20px;    
+}
+
+QComboBox QAbstractItemView
+{
+    outline:2px solid #B3B3B3;
+    border:2px solid #B3B3B3;
+    padding:5px;
+    font-family:'Microsoft YaHei';
+    font-size:16px;
+    padding:5px;
+    border-radius:10px;
+    selection-background-color: white;
+    selection-color:black;
+}
+
+QLabel
+{
+    font-size: 14px;
+    font-weight: bold;
+}
